@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+
+    <style>
+
+    html {
+        height:100%;
+        width:100%;
+    }
+    body {
+        background-image: 
+        linear-gradient(hotpink, aqua);
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+    }
+    div.nav {
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+        border: 4px solid black ;
+        padding: 10px;
+        display: block;
+        padding: 1px 10px;
+        text-decoration: none;
+        height:50px;
+    }
+    ul {
+        clear:both;
+    }
+    li {
+        font-family: 'Caveat Brush', cursive;
+        font-size: 22px;
+        text-align: center;
+        float: left;
+        margin-left: 70px;
+        list-style-type: none;
+    }
+    h1 {
+        font-family: 'Chewy', cursive;
+        font-size: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h2 {
+        font-family: 'Chewy', cursive;
+        font-size: 100px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .photos {
+        text-align: center;
+    }
+    img {
+        margin-top: 0;
+        vertical-align:middle;
+        max-width: 85%;
+    }
+    .baby1 {
+            border-radius: 30px;
+            border: 4px solid black;
+            margin-top: 60px;
+    }
+    .baby2 {
+            border-radius: 30px;
+            border: 4px solid black;
+    }
+    .baby3{
+            border-radius: 30px;
+            border: 4px solid black;
+    }
+    .baby4 {
+            border-radius: 30px;
+            border: 4px solid black;
+    }
+    @media (max-width: 500px) {
+            body {
+                width: 100%;
+                height: 100%;
+            }
+            h1 {
+                font-size: 90px;
+            }
+            li {
+                text-align:center;
+                padding-right: 110px;
+                float: none;
+                font-size: 18px;
+                list-style-type: none;
+            }
+            img {
+                align-content: center;
+            }
+            .photos{
+                padding: 0px;
+            }
+            .baby1 {
+                align-content: center;
+                width: 332px;
+                height: 210px;
+                border: none;
+                border-radius: 30px;
+                border: 2.5px dotted black;
+            }
+            .baby2 {
+                align-content: center;
+                width: 332px;
+                height: 210px;
+                border: none;
+                border-radius: 30px;
+                border: 2.5px dashed black;
+            }
+            .baby3 {
+                align-content: center;
+                width: 332px;
+                height: 210px;
+                border: none;
+                border-radius: 30px;
+                border: 2.5px dotted black;
+            }
+            .baby4 {
+                align-content: center;
+                width: 332px;
+                height: 210px;
+                border: none;
+                border-radius: 30px;
+                border: 2.5px dashed black;
+            }
+    }
+    </style>
+
+</head>
+
+<body>
+   
+<title>Babies</title>
+
+<h1><strong>Babies</strong></h1>
+
+<div class="nav">
+    <ul>
+        <li>About Babies</li>
+        <li>Health Care</li>
+        <li>Parenting</li>
+        <li><a href="https://www.name-generator.org.uk/baby/"
+            target="_blank">Names</a></li>
+        <li><a href="test-2.html">Baby of the Week</a></li>
+    </ul>
+</div>
+
+<h2>Images</h2>
+
+    <div class="photos">
+        <img class="baby1" src="baby 1.jpeg">
+        <img class="baby2" src="baby 2.jpeg">
+        <img class="baby3" src="baby 3.jpeg">
+        <img class="baby4" src="baby 4.jpeg">
+    </div>
+
+  <script>
+
+    $('button').on('click'), function(){
+     alert('JavaScript is running')
+    };
+  </script>
+
+</body>
+
+</html>
